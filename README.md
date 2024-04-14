@@ -2,8 +2,25 @@
 Simple template for MVVM with XML (Activity & Fragment) in Android, without Compose.
 # Architecture
 ![Flowcharts](https://github.com/jhj0517/android-template-mvvm-xml/assets/97279763/c9c0de0a-9a3a-47ff-9f48-0999e39caa34)
+# Overview
+- Notices
+    1. The INTERNET permission is enabled in the Manifest because there's a basic Retrofit2 usage.
+    2. `BuildConfig` is enabled in `build.gradle` to securely use important variables, such as `BuildConfig.API_KEY`.
+    3. Put important variables in `local.properties`. It'll be loaded in `build.gradle`.
+- Core Versions
+```toml
+agp = "8.3.0"
+kotlin = "1.9.0"
+room = "2.6.1"
+hilt = "2.51.1"
+gson = "2.10.1"
+retrofit2 = "2.11.0"
+ksp = "1.9.0-1.0.13"
+okhttpLogging = "4.12.0"
+```
+
 # Usage
-1. git clone this repo using
+1. git clone this repo
 ```commandline
 git clone https://github.com/jhj0517/android-template-mvvm-xml.git
 ```
@@ -25,4 +42,5 @@ android {
 ```gradle
 rootProject.name = "android-template-mvvm-xml" // Change
 ```
-5. You're now ready to start a new project.
+5. **Build** -> **Clean Project** -> **Rebuild Project**
+6. You're now ready to start your new project.
