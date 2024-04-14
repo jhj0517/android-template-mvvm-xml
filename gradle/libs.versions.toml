@@ -36,7 +36,7 @@ google-dagger-hilt = { group = "com.google.dagger", name = "hilt-android", versi
 google-dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 google-code-gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2" }
-squareup-retrofit2-converter = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit2" }
+squareup-retrofit2-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit2" }
 squareup-okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpLogging" }
 
 [plugins]
