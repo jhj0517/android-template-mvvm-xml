@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.dependency_injection_with_hilt.views.FirstFragment"
+        android:name="com.jhj0517.android_template_mvvm_xml.views.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.dependency_injection_with_hilt.views
+package com.jhj0517.android_template_mvvm_xml.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,14 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.dependency_injection_with_hilt.adapters.DataAdapter
-import com.example.dependency_injection_with_hilt.adapters.BaseRecyclerClickListener
-import com.example.dependency_injection_with_hilt.databinding.FragmentFirstBinding
-import com.example.dependency_injection_with_hilt.localdb.AppDatabase
-import com.example.dependency_injection_with_hilt.localdb.DataDao
-import com.example.dependency_injection_with_hilt.models.ExampleData
-import com.example.dependency_injection_with_hilt.viewmodels.DataViewModel
+import com.jhj0517.android_template_mvvm_xml.adapters.DataAdapter
+import com.jhj0517.android_template_mvvm_xml.adapters.BaseRecyclerClickListener
+import com.jhj0517.android_template_mvvm_xml.databinding.FragmentFirstBinding
+import com.jhj0517.android_template_mvvm_xml.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.viewmodels.DataViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

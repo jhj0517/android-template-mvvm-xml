@@ -1,8 +1,8 @@
-package com.example.dependency_injection_with_hilt.di
+package com.jhj0517.android_template_mvvm_xml.di
 
 import android.content.Context
-import com.example.dependency_injection_with_hilt.localdb.AppDatabase
-import com.example.dependency_injection_with_hilt.localdb.DataDao
+import com.jhj0517.android_template_mvvm_xml.localdb.AppDatabase
+import com.jhj0517.android_template_mvvm_xml.localdb.DataDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

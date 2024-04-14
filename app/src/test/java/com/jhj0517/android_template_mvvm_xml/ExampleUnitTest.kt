@@ -1,4 +1,4 @@
-package com.example.dependency_injection_with_hilt
+package com.jhj0517.android_template_mvvm_xml
 
 import org.junit.Test
 

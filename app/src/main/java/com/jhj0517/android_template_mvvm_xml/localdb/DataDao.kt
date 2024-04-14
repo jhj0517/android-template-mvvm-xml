@@ -1,4 +1,4 @@
-package com.example.dependency_injection_with_hilt.localdb
+package com.jhj0517.android_template_mvvm_xml.localdb
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.dependency_injection_with_hilt.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.models.ExampleData
 
 
 @Dao

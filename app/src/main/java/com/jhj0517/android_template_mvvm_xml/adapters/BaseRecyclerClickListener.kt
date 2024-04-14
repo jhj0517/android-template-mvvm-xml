@@ -1,4 +1,4 @@
-package com.example.dependency_injection_with_hilt.adapters
+package com.jhj0517.android_template_mvvm_xml.adapters
 
 interface BaseRecyclerClickListener<T> {
     fun onItemClick(item: T)

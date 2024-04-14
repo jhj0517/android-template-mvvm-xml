@@ -1,4 +1,4 @@
-package com.example.dependency_injection_with_hilt.models
+package com.jhj0517.android_template_mvvm_xml.models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -1,12 +1,12 @@
-package com.example.dependency_injection_with_hilt.adapters
+package com.jhj0517.android_template_mvvm_xml.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.dependency_injection_with_hilt.databinding.ItemExampleBinding
-import com.example.dependency_injection_with_hilt.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.databinding.ItemExampleBinding
+import com.jhj0517.android_template_mvvm_xml.models.ExampleData
 
 class DataAdapter (private val clickListener: BaseRecyclerClickListener<ExampleData>)
     : ListAdapter<ExampleData, DataAdapter.ViewHolder>(diffUtil) {

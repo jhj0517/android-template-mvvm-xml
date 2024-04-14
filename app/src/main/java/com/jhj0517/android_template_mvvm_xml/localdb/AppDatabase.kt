@@ -1,11 +1,11 @@
-package com.example.dependency_injection_with_hilt.localdb
+package com.jhj0517.android_template_mvvm_xml.localdb
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
-import com.example.dependency_injection_with_hilt.constants.AppConstants
-import com.example.dependency_injection_with_hilt.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.constants.AppConstants
+import com.jhj0517.android_template_mvvm_xml.models.ExampleData
 
 
 @Database(entities = [ExampleData::class], exportSchema = false, version = 1)
