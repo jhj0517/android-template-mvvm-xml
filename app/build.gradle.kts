@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -5,6 +7,9 @@ plugins {
     alias(libs.plugins.google.dagger.hilt)
     alias(libs.plugins.google.devtools.ksp)
 }
+
+val properties = Properties()
+properties.load(project.rootProject.file("local.properties").inputStream())
 
 android {
     namespace = "com.jhj0517.android_template_mvvm_xml"
@@ -18,6 +23,10 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // This is my REST API url for Backend, you can change it to your own.
+        // Add important variables to local.properties file.
+        buildConfigField("String", "BinanceBaseURL", properties["binance.url"] as String)
     }
 
     buildTypes {
@@ -38,6 +47,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
     dataBinding {
         enable = true
