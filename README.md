@@ -25,3 +25,4 @@ android {
 ```gradle
 rootProject.name = "android-template-mvvm-xml" // Change
 ```
+5. You're now ready to start a new project.
