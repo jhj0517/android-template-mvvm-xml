@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dependency_injection_with_hilt"
+    namespace = "com.jhj0517.android_template_mvvm_xml"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.dependency_injection_with_hilt"
+        applicationId = "com.jhj0517.android_template_mvvm_xml"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -55,7 +55,7 @@ dependencies {
 
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx) // To use coroutines with room
-    kapt(libs.androidx.room.compiler) // This should be added with `kapt`, not `annotationProcessor`; Figured out with some troubleshooting.
+    kapt(libs.androidx.room.compiler) // This should be added with `kapt`, not `annotationProcessor`;
     kapt(libs.androidx.room.ktx)
 
     implementation(libs.google.dagger.hilt)
