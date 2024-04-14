@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Dependency_Injection_with_Hilt"
+rootProject.name = "android-template-mvvm-xml"
 include(":app")
  
