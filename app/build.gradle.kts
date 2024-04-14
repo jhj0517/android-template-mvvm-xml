@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     kotlin("kapt")
     alias(libs.plugins.google.dagger.hilt)
+    alias(libs.plugins.google.devtools.ksp)
 }
 
 android {
@@ -55,8 +56,7 @@ dependencies {
 
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx) // To use coroutines with room
-    kapt(libs.androidx.room.compiler) // This should be added with `kapt`, not `annotationProcessor`;
-    kapt(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 
     implementation(libs.google.dagger.hilt)
     kapt(libs.google.dagger.hilt.compiler)
