@@ -3,7 +3,7 @@ package com.jhj0517.android_template_mvvm_xml.network
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
-import retrofit2.converter.scalars.ScalarsConverterFactory
+import retrofit2.converter.gson.GsonConverterFactory
 
 object Client {
     fun <T> create(baseUrl: String, service: Class<T>): T {
@@ -16,7 +16,7 @@ object Client {
         return Retrofit.Builder()
             .baseUrl(baseUrl)
             .client(client)
-            .addConverterFactory(ScalarsConverterFactory.create())
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(service)
     }
