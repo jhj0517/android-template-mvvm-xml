@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
 import com.jhj0517.android_template_mvvm_xml.constants.AppConstants
-import com.jhj0517.android_template_mvvm_xml.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.models.localdb.ExampleData
 
 
 @Database(entities = [ExampleData::class], exportSchema = false, version = 1)

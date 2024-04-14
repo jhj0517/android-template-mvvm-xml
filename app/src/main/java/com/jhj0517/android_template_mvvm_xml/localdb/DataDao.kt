@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.jhj0517.android_template_mvvm_xml.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.models.localdb.ExampleData
 
 
 @Dao

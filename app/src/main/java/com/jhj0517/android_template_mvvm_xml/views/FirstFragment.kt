@@ -9,7 +9,7 @@ import androidx.fragment.app.viewModels
 import com.jhj0517.android_template_mvvm_xml.adapters.DataAdapter
 import com.jhj0517.android_template_mvvm_xml.adapters.BaseRecyclerClickListener
 import com.jhj0517.android_template_mvvm_xml.databinding.FragmentFirstBinding
-import com.jhj0517.android_template_mvvm_xml.models.ExampleData
+import com.jhj0517.android_template_mvvm_xml.models.localdb.ExampleData
 import com.jhj0517.android_template_mvvm_xml.viewmodels.DataViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
