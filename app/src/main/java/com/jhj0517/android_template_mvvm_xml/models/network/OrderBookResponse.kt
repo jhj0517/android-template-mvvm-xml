@@ -1,4 +1,4 @@
-package com.jhj0517.android_template_mvvm_xml.models.network.response
+package com.jhj0517.android_template_mvvm_xml.models.network
 
 import com.google.gson.annotations.SerializedName
 
