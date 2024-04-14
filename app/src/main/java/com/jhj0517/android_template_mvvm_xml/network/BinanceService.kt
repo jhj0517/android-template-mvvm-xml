@@ -1,7 +1,8 @@
 package com.jhj0517.android_template_mvvm_xml.network
 
-import com.jhj0517.android_template_mvvm_xml.models.network.response.OrderBookResponse
+import com.jhj0517.android_template_mvvm_xml.models.network.OrderBookResponse
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 /**
  * This is Example interface for the Binance API. You can change it to your own.
@@ -9,5 +10,9 @@ import retrofit2.http.GET
  */
 interface BinanceService {
     @GET("depth")
-    suspend fun getOrderBook(): OrderBookResponse
+    suspend fun getOrderBook(
+        @Query("symbol") symbol: String,
+        @Query("limit") limit: Int? = null
+    ): OrderBookResponse
+
 }
