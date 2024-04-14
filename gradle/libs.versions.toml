@@ -16,6 +16,7 @@ hilt = "2.51.1"
 gson = "2.10.1"
 retrofit2 = "2.11.0"
 ksp = "1.9.0-1.0.13"
+okhttpLogging = "4.12.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -36,6 +37,7 @@ google-dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-androi
 google-code-gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2" }
 squareup-retrofit2-converter = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit2" }
+squareup-okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpLogging" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
