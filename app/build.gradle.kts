@@ -9,7 +9,7 @@ plugins {
 }
 
 val properties = Properties()
-properties.load(project.rootProject.file("local.properties").inputStream())
+properties.load(project.rootProject.file("keys.properties").inputStream())
 
 android {
     namespace = "com.jhj0517.android_template_mvvm_xml"
