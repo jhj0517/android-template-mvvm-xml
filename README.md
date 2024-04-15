@@ -6,7 +6,7 @@ Simple template for MVVM with XML (Activity & Fragment) in Android, without Comp
 - Notices
     1. The INTERNET permission is enabled in the Manifest because there's a basic Retrofit2 usage.
     2. `BuildConfig` is enabled in `build.gradle` to securely use important variables, such as `BuildConfig.API_KEY`.
-    3. Put important variables in `local.properties`. It'll be loaded in `build.gradle`.
+    3. Put important variables in **`keys.properties`**. It'll be loaded in `build.gradle`.
 - Core Versions
 ```toml
 agp = "8.3.0"
