@@ -24,7 +24,7 @@ okhttpLogging = "4.12.0"
 ```commandline
 git clone https://github.com/jhj0517/android-template-mvvm-xml.git
 ```
-2. Go to the **Project Files** tab in the File Tree view within Android Studio.
+2. Go to the **Project Files** tab in the File Tree view within Android Studio, not the **Android** or **Project** tab.
     - Refactor the organization name with yours
        ![organization](https://github.com/jhj0517/android-template-mvvm-xml/assets/97279763/0846bd20-8214-4ae8-8227-441741f7a694)
     - Refactor the package name with yours
