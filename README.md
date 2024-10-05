@@ -1,5 +1,5 @@
 # Android MVVM (XML) Template
-Simple template for MVVM with XML (Activity & Fragment) in Android, without Compose.
+Simple template for MVVM with XML (Activity & Fragment) in Android, without Compose. [(Compose version)](https://github.com/jhj0517/android-template-mvvm-compose)
 # Architecture
 ![Flowcharts](https://github.com/jhj0517/android-template-mvvm-xml/assets/97279763/c9c0de0a-9a3a-47ff-9f48-0999e39caa34)
 # Overview
